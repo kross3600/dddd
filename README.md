@@ -58,7 +58,3 @@ local function drawTrajectory()
 		drawLine(origin, origin + direction * maxDistance)
 	end
 end
-
--- Atualiza a cada frame
-RunService.RenderStepped:Connect(drawTrajectory)
-# dddd
